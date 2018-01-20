@@ -1,0 +1,4 @@
+from functools import reduce
+
+z=reduce((lambda x,y:x+y),[2,3])
+print(z)
